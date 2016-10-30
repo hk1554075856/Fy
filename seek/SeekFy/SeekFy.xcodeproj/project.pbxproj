@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D2881A01DC647CA008C4351 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D28819F1DC647CA008C4351 /* main.m */; };
+		2D2881A31DC647CA008C4351 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2881A21DC647CA008C4351 /* AppDelegate.m */; };
+		2D2881A61DC647CA008C4351 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2881A51DC647CA008C4351 /* ViewController.m */; };
+		2D2881A91DC647CA008C4351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2881A71DC647CA008C4351 /* Main.storyboard */; };
+		2D2881AB1DC647CA008C4351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D2881AA1DC647CA008C4351 /* Assets.xcassets */; };
+		2D2881AE1DC647CA008C4351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2881AC1DC647CA008C4351 /* LaunchScreen.storyboard */; };
+		2D2881B91DC647CA008C4351 /* SeekFyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2881B81DC647CA008C4351 /* SeekFyTests.m */; };
+		2D2881C41DC647CA008C4351 /* SeekFyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2881C31DC647CA008C4351 /* SeekFyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D2881B51DC647CA008C4351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D2881931DC647CA008C4351 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D28819A1DC647CA008C4351;
+			remoteInfo = SeekFy;
+		};
+		2D2881C01DC647CA008C4351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D2881931DC647CA008C4351 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D28819A1DC647CA008C4351;
+			remoteInfo = SeekFy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D28819B1DC647CA008C4351 /* SeekFy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeekFy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D28819F1DC647CA008C4351 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D2881A11DC647CA008C4351 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D2881A21DC647CA008C4351 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D2881A41DC647CA008C4351 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D2881A51DC647CA008C4351 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D2881A81DC647CA008C4351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D2881AA1DC647CA008C4351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D2881AD1DC647CA008C4351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D2881AF1DC647CA008C4351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D2881B41DC647CA008C4351 /* SeekFyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeekFyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2881B81DC647CA008C4351 /* SeekFyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeekFyTests.m; sourceTree = "<group>"; };
+		2D2881BA1DC647CA008C4351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D2881BF1DC647CA008C4351 /* SeekFyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeekFyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2881C31DC647CA008C4351 /* SeekFyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeekFyUITests.m; sourceTree = "<group>"; };
+		2D2881C51DC647CA008C4351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D2881981DC647CA008C4351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2881B11DC647CA008C4351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2881BC1DC647CA008C4351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D2881921DC647CA008C4351 = {
+			isa = PBXGroup;
+			children = (
+				2D28819D1DC647CA008C4351 /* SeekFy */,
+				2D2881B71DC647CA008C4351 /* SeekFyTests */,
+				2D2881C21DC647CA008C4351 /* SeekFyUITests */,
+				2D28819C1DC647CA008C4351 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D28819C1DC647CA008C4351 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D28819B1DC647CA008C4351 /* SeekFy.app */,
+				2D2881B41DC647CA008C4351 /* SeekFyTests.xctest */,
+				2D2881BF1DC647CA008C4351 /* SeekFyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D28819D1DC647CA008C4351 /* SeekFy */ = {
+			isa = PBXGroup;
+			children = (
+				2D2881A11DC647CA008C4351 /* AppDelegate.h */,
+				2D2881A21DC647CA008C4351 /* AppDelegate.m */,
+				2D2881A41DC647CA008C4351 /* ViewController.h */,
+				2D2881A51DC647CA008C4351 /* ViewController.m */,
+				2D2881A71DC647CA008C4351 /* Main.storyboard */,
+				2D2881AA1DC647CA008C4351 /* Assets.xcassets */,
+				2D2881AC1DC647CA008C4351 /* LaunchScreen.storyboard */,
+				2D2881AF1DC647CA008C4351 /* Info.plist */,
+				2D28819E1DC647CA008C4351 /* Supporting Files */,
+			);
+			path = SeekFy;
+			sourceTree = "<group>";
+		};
+		2D28819E1DC647CA008C4351 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D28819F1DC647CA008C4351 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D2881B71DC647CA008C4351 /* SeekFyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D2881B81DC647CA008C4351 /* SeekFyTests.m */,
+				2D2881BA1DC647CA008C4351 /* Info.plist */,
+			);
+			path = SeekFyTests;
+			sourceTree = "<group>";
+		};
+		2D2881C21DC647CA008C4351 /* SeekFyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D2881C31DC647CA008C4351 /* SeekFyUITests.m */,
+				2D2881C51DC647CA008C4351 /* Info.plist */,
+			);
+			path = SeekFyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D28819A1DC647CA008C4351 /* SeekFy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2881C81DC647CA008C4351 /* Build configuration list for PBXNativeTarget "SeekFy" */;
+			buildPhases = (
+				2D2881971DC647CA008C4351 /* Sources */,
+				2D2881981DC647CA008C4351 /* Frameworks */,
+				2D2881991DC647CA008C4351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeekFy;
+			productName = SeekFy;
+			productReference = 2D28819B1DC647CA008C4351 /* SeekFy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D2881B31DC647CA008C4351 /* SeekFyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2881CB1DC647CA008C4351 /* Build configuration list for PBXNativeTarget "SeekFyTests" */;
+			buildPhases = (
+				2D2881B01DC647CA008C4351 /* Sources */,
+				2D2881B11DC647CA008C4351 /* Frameworks */,
+				2D2881B21DC647CA008C4351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D2881B61DC647CA008C4351 /* PBXTargetDependency */,
+			);
+			name = SeekFyTests;
+			productName = SeekFyTests;
+			productReference = 2D2881B41DC647CA008C4351 /* SeekFyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D2881BE1DC647CA008C4351 /* SeekFyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2881CE1DC647CA008C4351 /* Build configuration list for PBXNativeTarget "SeekFyUITests" */;
+			buildPhases = (
+				2D2881BB1DC647CA008C4351 /* Sources */,
+				2D2881BC1DC647CA008C4351 /* Frameworks */,
+				2D2881BD1DC647CA008C4351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D2881C11DC647CA008C4351 /* PBXTargetDependency */,
+			);
+			name = SeekFyUITests;
+			productName = SeekFyUITests;
+			productReference = 2D2881BF1DC647CA008C4351 /* SeekFyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D2881931DC647CA008C4351 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ZHFY;
+				TargetAttributes = {
+					2D28819A1DC647CA008C4351 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					2D2881B31DC647CA008C4351 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D28819A1DC647CA008C4351;
+					};
+					2D2881BE1DC647CA008C4351 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D28819A1DC647CA008C4351;
+					};
+				};
+			};
+			buildConfigurationList = 2D2881961DC647CA008C4351 /* Build configuration list for PBXProject "SeekFy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D2881921DC647CA008C4351;
+			productRefGroup = 2D28819C1DC647CA008C4351 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D28819A1DC647CA008C4351 /* SeekFy */,
+				2D2881B31DC647CA008C4351 /* SeekFyTests */,
+				2D2881BE1DC647CA008C4351 /* SeekFyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D2881991DC647CA008C4351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2881AE1DC647CA008C4351 /* LaunchScreen.storyboard in Resources */,
+				2D2881AB1DC647CA008C4351 /* Assets.xcassets in Resources */,
+				2D2881A91DC647CA008C4351 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2881B21DC647CA008C4351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2881BD1DC647CA008C4351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D2881971DC647CA008C4351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2881A61DC647CA008C4351 /* ViewController.m in Sources */,
+				2D2881A31DC647CA008C4351 /* AppDelegate.m in Sources */,
+				2D2881A01DC647CA008C4351 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2881B01DC647CA008C4351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2881B91DC647CA008C4351 /* SeekFyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2881BB1DC647CA008C4351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2881C41DC647CA008C4351 /* SeekFyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D2881B61DC647CA008C4351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D28819A1DC647CA008C4351 /* SeekFy */;
+			targetProxy = 2D2881B51DC647CA008C4351 /* PBXContainerItemProxy */;
+		};
+		2D2881C11DC647CA008C4351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D28819A1DC647CA008C4351 /* SeekFy */;
+			targetProxy = 2D2881C01DC647CA008C4351 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D2881A71DC647CA008C4351 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D2881A81DC647CA008C4351 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D2881AC1DC647CA008C4351 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D2881AD1DC647CA008C4351 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D2881C61DC647CA008C4351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D2881C71DC647CA008C4351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D2881C91DC647CA008C4351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SeekFy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhfy..SeekFy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D2881CA1DC647CA008C4351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SeekFy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhfy..SeekFy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2D2881CC1DC647CA008C4351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SeekFyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhfy..SeekFyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeekFy.app/SeekFy";
+			};
+			name = Debug;
+		};
+		2D2881CD1DC647CA008C4351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SeekFyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhfy..SeekFyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeekFy.app/SeekFy";
+			};
+			name = Release;
+		};
+		2D2881CF1DC647CA008C4351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SeekFyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhfy..SeekFyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SeekFy;
+			};
+			name = Debug;
+		};
+		2D2881D01DC647CA008C4351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SeekFyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhfy..SeekFyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SeekFy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D2881961DC647CA008C4351 /* Build configuration list for PBXProject "SeekFy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2881C61DC647CA008C4351 /* Debug */,
+				2D2881C71DC647CA008C4351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D2881C81DC647CA008C4351 /* Build configuration list for PBXNativeTarget "SeekFy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2881C91DC647CA008C4351 /* Debug */,
+				2D2881CA1DC647CA008C4351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D2881CB1DC647CA008C4351 /* Build configuration list for PBXNativeTarget "SeekFyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2881CC1DC647CA008C4351 /* Debug */,
+				2D2881CD1DC647CA008C4351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D2881CE1DC647CA008C4351 /* Build configuration list for PBXNativeTarget "SeekFyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2881CF1DC647CA008C4351 /* Debug */,
+				2D2881D01DC647CA008C4351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D2881931DC647CA008C4351 /* Project object */;
+}
